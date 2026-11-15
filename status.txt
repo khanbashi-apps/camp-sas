@@ -1,0 +1,6 @@
+run=1
+sha=cb46f2fa6aee330836b339180dd94e3291220d0a
+android=success
+ios=success
+file=dl/android/out/CampSAS-v1.0.apk
+file=dl/ios/out/CampSAS-v1.0-unsigned.ipa

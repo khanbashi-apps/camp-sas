@@ -1,0 +1,386 @@
+== أدوات
+v22.23.4
+openjdk version "21.0.13" 2026-10-20 LTS
+npm warn deprecated uuid@7.0.3: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
+
+added 159 packages in 6s
+✔ Adding native android project in android in 38.38ms
+✔ add in 39.11ms
+✔ Copying web assets from www to android/app/src/main/assets/public in 6.17ms
+✔ Creating capacitor.config.json in android/app/src/main/assets in 371.51μs
+✔ copy android in 13.83ms
+✔ Updating Android plugins in 983.86μs
+[info] Found 3 Capacitor plugins for android:
+       @capacitor/filesystem@8.1.5
+       @capacitor/local-notifications@8.3.1
+       @capacitor/share@8.0.3
+✔ update android in 19.89ms
+✔ Syncing Gradle in 178.11μs
+[success] android platform added!
+Follow the Developer Workflow guide to get building:
+https://capacitorjs.com/docs/basics/workflow
+[log] xml(load) at /home/runner/work/camp-sas/camp-sas/android/app/src/main/AndroidManifest.xml
+[log] xml(load) Found root namespaces in XML file: http://schemas.android.com/apk/res/android
+Generating assets for android
+CREATE android icon /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/mipmap-ldpi/ic_launcher.png (780 B)
+CREATE android icon /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/mipmap-mdpi/ic_launcher.png (1.41 KB)
+CREATE android icon /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/mipmap-hdpi/ic_launcher.png (3.26 KB)
+CREATE android icon /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png (5.46 KB)
+CREATE android icon /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png (10.79 KB)
+CREATE android icon /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png (16.91 KB)
+CREATE android icon /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/mipmap-ldpi/ic_launcher_round.png (1.86 KB)
+CREATE android icon /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png (2.81 KB)
+CREATE android icon /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png (4.93 KB)
+CREATE android icon /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png (7.18 KB)
+CREATE android icon /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png (12.58 KB)
+CREATE android icon /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png (18.47 KB)
+CREATE android icon /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/mipmap-ldpi/ic_launcher_foreground.png (1.6 KB)
+CREATE android icon /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+CREATE android icon /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+CREATE android icon /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png (2.43 KB)
+CREATE android icon /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+CREATE android icon /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+CREATE android icon /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png (4.31 KB)
+CREATE android icon /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+CREATE android icon /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+CREATE android icon /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png (6.34 KB)
+CREATE android icon /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+CREATE android icon /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+CREATE android icon /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png (11.32 KB)
+CREATE android icon /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+CREATE android icon /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+CREATE android icon /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png (16.68 KB)
+CREATE android icon /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+CREATE android icon /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+CREATE android icon /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/mipmap-ldpi/ic_launcher_background.png (147 B)
+CREATE android icon /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+CREATE android icon /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+CREATE android icon /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/mipmap-mdpi/ic_launcher_background.png (175 B)
+CREATE android icon /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+CREATE android icon /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+CREATE android icon /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/mipmap-hdpi/ic_launcher_background.png (212 B)
+CREATE android icon /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+CREATE android icon /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+CREATE android icon /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/mipmap-xhdpi/ic_launcher_background.png (284 B)
+CREATE android icon /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+CREATE android icon /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+CREATE android icon /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_background.png (431 B)
+CREATE android icon /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+CREATE android icon /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+CREATE android icon /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_background.png (558 B)
+CREATE android icon /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+CREATE android icon /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+CREATE android splash /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/drawable/splash.png (12.66 KB)
+CREATE android splash /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/drawable-land-ldpi/splash.png (7.03 KB)
+CREATE android splash /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/drawable-land-mdpi/splash.png (12.55 KB)
+CREATE android splash /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/drawable-land-hdpi/splash.png (27.02 KB)
+CREATE android splash /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/drawable-land-xhdpi/splash.png (54.46 KB)
+CREATE android splash /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/drawable-land-xxhdpi/splash.png (81.17 KB)
+CREATE android splash /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/drawable-land-xxxhdpi/splash.png (114.22 KB)
+CREATE android splash /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/drawable-port-ldpi/splash.png (7.06 KB)
+CREATE android splash /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/drawable-port-mdpi/splash.png (12.66 KB)
+CREATE android splash /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/drawable-port-hdpi/splash.png (27.01 KB)
+CREATE android splash /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/drawable-port-xhdpi/splash.png (57.05 KB)
+CREATE android splash /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/drawable-port-xxhdpi/splash.png (83.04 KB)
+CREATE android splash /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/drawable-port-xxxhdpi/splash.png (111.53 KB)
+CREATE android splash-dark /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/drawable-night/splash.png (7.07 KB)
+CREATE android splash-dark /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/drawable-land-night-ldpi/splash.png (7.07 KB)
+CREATE android splash-dark /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/drawable-land-night-mdpi/splash.png (12.79 KB)
+CREATE android splash-dark /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/drawable-land-night-hdpi/splash.png (28.19 KB)
+CREATE android splash-dark /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/drawable-land-night-xhdpi/splash.png (58.36 KB)
+CREATE android splash-dark /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/drawable-land-night-xxhdpi/splash.png (86 KB)
+CREATE android splash-dark /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/drawable-land-night-xxxhdpi/splash.png (121.68 KB)
+CREATE android splash-dark /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/drawable-port-night-ldpi/splash.png (7.11 KB)
+CREATE android splash-dark /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/drawable-port-night-mdpi/splash.png (12.92 KB)
+CREATE android splash-dark /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/drawable-port-night-hdpi/splash.png (28.12 KB)
+CREATE android splash-dark /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/drawable-port-night-xhdpi/splash.png (61.02 KB)
+CREATE android splash-dark /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/drawable-port-night-xxhdpi/splash.png (87.79 KB)
+CREATE android splash-dark /home/runner/work/camp-sas/camp-sas/android/app/src/main/res/drawable-port-night-xxxhdpi/splash.png (119.42 KB)
+
+
+Totals:
+android: 74 generated, 1.34 MB total
+✔ Copying web assets from www to android/app/src/main/assets/public in 8.62ms
+✔ Creating capacitor.config.json in android/app/src/main/assets in 665.73μs
+✔ copy android in 16.83ms
+✔ Updating Android plugins in 1.09ms
+[info] Found 3 Capacitor plugins for android:
+       @capacitor/filesystem@8.1.5
+       @capacitor/local-notifications@8.3.1
+       @capacitor/share@8.0.3
+✔ update android in 26.61ms
+[info] Sync finished in 0.058s
+yes: standard output: Broken pipe
+Downloading https://services.gradle.org/distributions/gradle-8.14.3-all.zip
+.....................10%.....................20%......................30%.....................40%......................50%.....................60%.....................70%......................80%.....................90%......................100%
+
+Welcome to Gradle 8.14.3!
+
+Here are the highlights of this release:
+ - Java 24 support
+ - GraalVM Native Image toolchain selection
+ - Enhancements to test reporting
+ - Build Authoring improvements
+
+For more details see https://docs.gradle.org/8.14.3/release-notes.html
+
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.14.3/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+
+> Configure project :app
+WARNING: Using flatDir should be avoided because it doesn't support any meta-data formats.
+
+> Configure project :capacitor-cordova-android-plugins
+WARNING: Using flatDir should be avoided because it doesn't support any meta-data formats.
+
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :capacitor-android:preBuild UP-TO-DATE
+> Task :capacitor-android:preDebugBuild UP-TO-DATE
+> Task :capacitor-cordova-android-plugins:preBuild UP-TO-DATE
+> Task :capacitor-cordova-android-plugins:preDebugBuild UP-TO-DATE
+> Task :capacitor-filesystem:preBuild UP-TO-DATE
+> Task :capacitor-filesystem:preDebugBuild UP-TO-DATE
+> Task :capacitor-cordova-android-plugins:writeDebugAarMetadata
+> Task :capacitor-android:writeDebugAarMetadata
+> Task :app:javaPreCompileDebug
+> Task :capacitor-local-notifications:preBuild UP-TO-DATE
+> Task :capacitor-filesystem:writeDebugAarMetadata
+> Task :capacitor-local-notifications:preDebugBuild UP-TO-DATE
+> Task :capacitor-share:preBuild UP-TO-DATE
+> Task :capacitor-share:preDebugBuild UP-TO-DATE
+> Task :capacitor-local-notifications:writeDebugAarMetadata
+> Task :capacitor-share:writeDebugAarMetadata
+> Task :capacitor-android:processDebugNavigationResources
+> Task :capacitor-cordova-android-plugins:processDebugNavigationResources
+> Task :capacitor-filesystem:processDebugNavigationResources
+> Task :capacitor-local-notifications:processDebugNavigationResources
+> Task :capacitor-share:processDebugNavigationResources
+> Task :app:checkDebugAarMetadata
+> Task :app:processDebugNavigationResources
+> Task :app:generateDebugResValues
+> Task :app:compileDebugNavigationResources
+> Task :capacitor-android:generateDebugResValues
+> Task :capacitor-android:generateDebugResources
+> Task :capacitor-android:packageDebugResources
+> Task :capacitor-cordova-android-plugins:generateDebugResValues
+> Task :capacitor-cordova-android-plugins:generateDebugResources
+> Task :capacitor-cordova-android-plugins:packageDebugResources
+> Task :capacitor-filesystem:generateDebugResValues
+> Task :capacitor-filesystem:generateDebugResources
+> Task :capacitor-filesystem:packageDebugResources
+> Task :capacitor-local-notifications:generateDebugResValues
+> Task :capacitor-local-notifications:generateDebugResources
+> Task :capacitor-local-notifications:packageDebugResources
+> Task :capacitor-share:generateDebugResValues
+> Task :capacitor-share:generateDebugResources
+> Task :capacitor-share:packageDebugResources
+> Task :app:mapDebugSourceSetPaths
+> Task :app:generateDebugResources
+> Task :app:packageDebugResources
+> Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :capacitor-android:extractDeepLinksDebug
+> Task :capacitor-cordova-android-plugins:extractDeepLinksDebug
+> Task :capacitor-filesystem:extractDeepLinksDebug
+> Task :app:parseDebugLocalResources
+> Task :capacitor-local-notifications:extractDeepLinksDebug
+> Task :capacitor-android:processDebugManifest
+> Task :capacitor-filesystem:processDebugManifest
+> Task :capacitor-cordova-android-plugins:processDebugManifest
+> Task :capacitor-share:extractDeepLinksDebug
+> Task :capacitor-local-notifications:processDebugManifest
+> Task :capacitor-share:processDebugManifest
+> Task :capacitor-android:compileDebugLibraryResources
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest
+> Task :app:processDebugManifestForPackage
+> Task :capacitor-cordova-android-plugins:compileDebugLibraryResources
+> Task :capacitor-filesystem:compileDebugLibraryResources
+> Task :capacitor-android:parseDebugLocalResources
+> Task :capacitor-filesystem:parseDebugLocalResources
+> Task :capacitor-cordova-android-plugins:parseDebugLocalResources
+> Task :capacitor-local-notifications:compileDebugLibraryResources
+> Task :capacitor-android:generateDebugRFile
+> Task :capacitor-filesystem:generateDebugRFile
+> Task :capacitor-cordova-android-plugins:generateDebugRFile
+> Task :capacitor-share:compileDebugLibraryResources
+> Task :capacitor-android:javaPreCompileDebug
+> Task :capacitor-cordova-android-plugins:javaPreCompileDebug
+> Task :capacitor-local-notifications:parseDebugLocalResources
+> Task :capacitor-share:parseDebugLocalResources
+
+> Task :capacitor-android:compileDebugJavaWithJavac
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :capacitor-share:generateDebugRFile
+> Task :capacitor-local-notifications:generateDebugRFile
+> Task :capacitor-android:bundleLibCompileToJarDebug
+> Task :capacitor-cordova-android-plugins:compileDebugJavaWithJavac NO-SOURCE
+> Task :capacitor-filesystem:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :capacitor-cordova-android-plugins:bundleLibCompileToJarDebug
+> Task :app:processDebugResources
+> Task :capacitor-local-notifications:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :capacitor-filesystem:javaPreCompileDebug
+> Task :capacitor-local-notifications:javaPreCompileDebug
+> Task :capacitor-share:javaPreCompileDebug
+> Task :app:mergeDebugShaders
+> Task :capacitor-share:compileDebugJavaWithJavac
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :capacitor-share:bundleLibCompileToJarDebug
+> Task :capacitor-android:mergeDebugShaders
+> Task :capacitor-android:compileDebugShaders NO-SOURCE
+> Task :capacitor-android:generateDebugAssets UP-TO-DATE
+> Task :capacitor-android:mergeDebugAssets
+> Task :capacitor-cordova-android-plugins:mergeDebugShaders
+> Task :capacitor-cordova-android-plugins:compileDebugShaders NO-SOURCE
+> Task :capacitor-cordova-android-plugins:generateDebugAssets UP-TO-DATE
+> Task :capacitor-cordova-android-plugins:mergeDebugAssets
+> Task :capacitor-filesystem:mergeDebugShaders
+> Task :capacitor-filesystem:compileDebugShaders NO-SOURCE
+> Task :capacitor-filesystem:generateDebugAssets UP-TO-DATE
+> Task :capacitor-filesystem:mergeDebugAssets
+> Task :capacitor-local-notifications:mergeDebugShaders
+> Task :capacitor-local-notifications:compileDebugShaders NO-SOURCE
+> Task :capacitor-local-notifications:generateDebugAssets UP-TO-DATE
+> Task :capacitor-local-notifications:mergeDebugAssets
+> Task :capacitor-share:mergeDebugShaders
+> Task :capacitor-share:compileDebugShaders NO-SOURCE
+> Task :capacitor-share:generateDebugAssets UP-TO-DATE
+> Task :capacitor-share:mergeDebugAssets
+> Task :app:mergeDebugAssets
+> Task :capacitor-share:bundleLibRuntimeToJarDebug
+> Task :app:compressDebugAssets
+> Task :capacitor-android:bundleLibRuntimeToJarDebug
+> Task :capacitor-cordova-android-plugins:bundleLibRuntimeToJarDebug
+> Task :app:desugarDebugFileDependencies
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :capacitor-android:processDebugJavaRes NO-SOURCE
+> Task :capacitor-cordova-android-plugins:processDebugJavaRes NO-SOURCE
+> Task :capacitor-share:processDebugJavaRes NO-SOURCE
+> Task :app:checkDebugDuplicateClasses
+> Task :capacitor-filesystem:compileDebugKotlin
+> Task :capacitor-local-notifications:compileDebugKotlin
+> Task :app:mergeExtDexDebug
+> Task :capacitor-filesystem:compileDebugJavaWithJavac NO-SOURCE
+> Task :capacitor-local-notifications:compileDebugJavaWithJavac NO-SOURCE
+> Task :capacitor-local-notifications:bundleLibCompileToJarDebug
+> Task :capacitor-filesystem:bundleLibCompileToJarDebug
+> Task :capacitor-filesystem:bundleLibRuntimeToJarDebug
+> Task :capacitor-local-notifications:bundleLibRuntimeToJarDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:dexBuilderDebug
+> Task :app:mergeDebugGlobalSynthetics
+> Task :capacitor-filesystem:processDebugJavaRes
+> Task :capacitor-local-notifications:processDebugJavaRes
+> Task :capacitor-local-notifications:bundleLibRuntimeToDirDebug
+> Task :capacitor-filesystem:bundleLibRuntimeToDirDebug
+> Task :capacitor-share:bundleLibRuntimeToDirDebug
+> Task :capacitor-android:bundleLibRuntimeToDirDebug
+> Task :capacitor-cordova-android-plugins:bundleLibRuntimeToDirDebug
+> Task :app:mergeProjectDexDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :capacitor-android:mergeDebugJniLibFolders
+> Task :capacitor-android:mergeDebugNativeLibs NO-SOURCE
+> Task :capacitor-android:copyDebugJniLibsProjectOnly
+> Task :capacitor-cordova-android-plugins:mergeDebugJniLibFolders
+> Task :capacitor-cordova-android-plugins:mergeDebugNativeLibs NO-SOURCE
+> Task :capacitor-cordova-android-plugins:copyDebugJniLibsProjectOnly
+> Task :capacitor-filesystem:mergeDebugJniLibFolders
+> Task :capacitor-filesystem:mergeDebugNativeLibs NO-SOURCE
+> Task :capacitor-filesystem:copyDebugJniLibsProjectOnly
+> Task :capacitor-local-notifications:mergeDebugJniLibFolders
+> Task :capacitor-local-notifications:mergeDebugNativeLibs NO-SOURCE
+> Task :capacitor-local-notifications:copyDebugJniLibsProjectOnly
+> Task :app:mergeDebugJavaResource
+> Task :capacitor-share:mergeDebugJniLibFolders
+> Task :capacitor-share:mergeDebugNativeLibs NO-SOURCE
+> Task :capacitor-share:copyDebugJniLibsProjectOnly
+> Task :app:validateSigningDebug
+> Task :app:mergeDebugNativeLibs NO-SOURCE
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :app:mergeLibDexDebug
+> Task :app:writeDebugAppMetadata
+> Task :app:writeDebugSigningConfigVersions
+> Task :capacitor-android:stripDebugDebugSymbols NO-SOURCE
+> Task :capacitor-android:checkDebugAarMetadata
+> Task :capacitor-android:copyDebugJniLibsProjectAndLocalJars
+> Task :capacitor-android:extractDebugAnnotations
+> Task :capacitor-android:extractDeepLinksForAarDebug
+> Task :capacitor-android:mergeDebugGeneratedProguardFiles
+> Task :capacitor-android:mergeDebugConsumerProguardFiles
+> Task :capacitor-android:prepareDebugArtProfile
+> Task :capacitor-android:prepareLintJarForPublish
+> Task :capacitor-android:mergeDebugJavaResource
+> Task :app:packageDebug
+> Task :app:createDebugApkListingFileRedirect
+> Task :app:assembleDebug
+> Task :capacitor-android:syncDebugLibJars
+> Task :capacitor-android:bundleDebugAar
+> Task :capacitor-android:assembleDebug
+> Task :capacitor-cordova-android-plugins:stripDebugDebugSymbols NO-SOURCE
+> Task :capacitor-cordova-android-plugins:checkDebugAarMetadata
+> Task :capacitor-cordova-android-plugins:copyDebugJniLibsProjectAndLocalJars
+> Task :capacitor-cordova-android-plugins:extractDebugAnnotations
+> Task :capacitor-cordova-android-plugins:extractDeepLinksForAarDebug
+> Task :capacitor-cordova-android-plugins:mergeDebugGeneratedProguardFiles
+> Task :capacitor-cordova-android-plugins:mergeDebugConsumerProguardFiles
+> Task :capacitor-cordova-android-plugins:prepareDebugArtProfile
+> Task :capacitor-cordova-android-plugins:prepareLintJarForPublish
+> Task :capacitor-cordova-android-plugins:mergeDebugJavaResource
+> Task :capacitor-filesystem:checkDebugAarMetadata
+> Task :capacitor-cordova-android-plugins:syncDebugLibJars
+> Task :capacitor-cordova-android-plugins:bundleDebugAar
+> Task :capacitor-cordova-android-plugins:assembleDebug
+> Task :capacitor-filesystem:stripDebugDebugSymbols NO-SOURCE
+> Task :capacitor-filesystem:copyDebugJniLibsProjectAndLocalJars
+> Task :capacitor-filesystem:extractDebugAnnotations
+> Task :capacitor-filesystem:extractDeepLinksForAarDebug
+> Task :capacitor-filesystem:mergeDebugGeneratedProguardFiles
+> Task :capacitor-filesystem:mergeDebugConsumerProguardFiles
+> Task :capacitor-filesystem:prepareDebugArtProfile
+> Task :capacitor-filesystem:prepareLintJarForPublish
+> Task :capacitor-filesystem:mergeDebugJavaResource
+> Task :capacitor-local-notifications:checkDebugAarMetadata
+> Task :capacitor-filesystem:syncDebugLibJars
+> Task :capacitor-filesystem:bundleDebugAar
+> Task :capacitor-filesystem:assembleDebug
+> Task :capacitor-local-notifications:stripDebugDebugSymbols NO-SOURCE
+> Task :capacitor-local-notifications:copyDebugJniLibsProjectAndLocalJars
+> Task :capacitor-local-notifications:extractDebugAnnotations
+> Task :capacitor-local-notifications:extractDeepLinksForAarDebug
+> Task :capacitor-local-notifications:mergeDebugGeneratedProguardFiles
+> Task :capacitor-local-notifications:mergeDebugConsumerProguardFiles
+> Task :capacitor-local-notifications:prepareDebugArtProfile
+> Task :capacitor-local-notifications:prepareLintJarForPublish
+> Task :capacitor-local-notifications:mergeDebugJavaResource
+> Task :capacitor-share:checkDebugAarMetadata
+> Task :capacitor-local-notifications:syncDebugLibJars
+> Task :capacitor-local-notifications:bundleDebugAar
+> Task :capacitor-local-notifications:assembleDebug
+> Task :capacitor-share:stripDebugDebugSymbols NO-SOURCE
+> Task :capacitor-share:copyDebugJniLibsProjectAndLocalJars
+> Task :capacitor-share:extractDebugAnnotations
+> Task :capacitor-share:extractDeepLinksForAarDebug
+> Task :capacitor-share:mergeDebugGeneratedProguardFiles
+> Task :capacitor-share:mergeDebugConsumerProguardFiles
+> Task :capacitor-share:prepareDebugArtProfile
+> Task :capacitor-share:prepareLintJarForPublish
+> Task :capacitor-share:mergeDebugJavaResource
+> Task :capacitor-share:syncDebugLibJars
+> Task :capacitor-share:bundleDebugAar
+> Task :capacitor-share:assembleDebug
+w: Detected multiple Kotlin daemon sessions at 
+
+[Incubating] Problems report is available at: file:///home/runner/work/camp-sas/camp-sas/android/build/reports/problems/problems-report.html
+
+BUILD SUCCESSFUL in 2m 2s
+185 actionable tasks: 185 executed
+total 6156
+drwxr-xr-x  2 runner runner    4096 Nov 15 14:04 .
+drwxr-xr-x 13 runner runner    4096 Nov 15 14:04 ..
+-rw-r--r--  1 runner runner 6294764 Nov 15 14:04 CampSAS-v1.0.apk
