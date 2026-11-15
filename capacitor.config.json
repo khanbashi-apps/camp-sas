@@ -1,0 +1,10 @@
+{
+  "appId": "com.khanbashi.campsas",
+  "appName": "كامب ساس",
+  "webDir": "www",
+  "backgroundColor": "#F5F3F0",
+  "ios": { "contentInset": "never" },
+  "plugins": {
+    "LocalNotifications": { "presentationOptions": ["badge", "sound", "banner", "list"], "iconColor": "#C8312D" }
+  }
+}

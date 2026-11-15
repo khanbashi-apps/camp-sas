@@ -1,0 +1,21 @@
+{
+  "name": "camp-sas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CAMP SAS — كامب ساس: إدارة سكن المخيم",
+  "scripts": {
+    "prepare-www": "bash scripts/prepare-www.sh"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.6.2",
+    "@capacitor/core": "^8.6.2",
+    "@capacitor/filesystem": "^8.1.5",
+    "@capacitor/ios": "^8.6.2",
+    "@capacitor/local-notifications": "^8.3.1",
+    "@capacitor/share": "^8.0.3"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^4.0.0",
+    "@capacitor/cli": "^8.6.2"
+  }
+}
